@@ -207,6 +207,10 @@
 		21AD21B81DE2D03B00487DBA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21B71DE2D03B00487DBA /* NewsViewController.m */; };
 		21AD21BB1DE2D04C00487DBA /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21BA1DE2D04C00487DBA /* AttentionViewController.m */; };
 		21AD21BE1DE2D07B00487DBA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21BD1DE2D07B00487DBA /* ProfileViewController.m */; };
+		21AD21C11DE2D1CB00487DBA /* BDJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21C01DE2D1CB00487DBA /* BDJTabBarController.m */; };
+		21AD21C41DE2DDC900487DBA /* BDJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21C31DE2DDC900487DBA /* BDJTabBar.m */; };
+		21AD21C81DE2DF1B00487DBA /* UIButton+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21C71DE2DF1B00487DBA /* UIButton+Util.m */; };
+		21AD21CD1DE2E7EF00487DBA /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD21CC1DE2E7EF00487DBA /* UIView+Util.m */; };
 		3B5EBB94117AE88B636873E7 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0F6B676C1331B04374629D /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
@@ -441,6 +445,16 @@
 		21AD21BA1DE2D04C00487DBA /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
 		21AD21BC1DE2D07B00487DBA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		21AD21BD1DE2D07B00487DBA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		21AD21BF1DE2D1CB00487DBA /* BDJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJTabBarController.h; sourceTree = "<group>"; };
+		21AD21C01DE2D1CB00487DBA /* BDJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJTabBarController.m; sourceTree = "<group>"; };
+		21AD21C21DE2DDC900487DBA /* BDJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJTabBar.h; sourceTree = "<group>"; };
+		21AD21C31DE2DDC900487DBA /* BDJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJTabBar.m; sourceTree = "<group>"; };
+		21AD21C61DE2DF1B00487DBA /* UIButton+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Util.h"; sourceTree = "<group>"; };
+		21AD21C71DE2DF1B00487DBA /* UIButton+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Util.m"; sourceTree = "<group>"; };
+		21AD21C91DE2E1C700487DBA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		21AD21CA1DE2E61800487DBA /* BDJconst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJconst.h; sourceTree = "<group>"; };
+		21AD21CB1DE2E7EF00487DBA /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		21AD21CC1DE2E7EF00487DBA /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 		4E0F6B676C1331B04374629D /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		913794C8717F1207E94C1090 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		EAC7D2C3C446274043609A80 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
@@ -542,6 +556,9 @@
 		21AD1FE91DE2C9B900487DBA /* classes(类文件) */ = {
 			isa = PBXGroup;
 			children = (
+				21AD21C51DE2DEB900487DBA /* catrgory(类别) */,
+				21AD1FF21DE2C9B900487DBA /* Common(公共类) */,
+				21AD1FF31DE2C9B900487DBA /* Essence(精华) */,
 				21AD1FF71DE2C9B900487DBA /* News(最新) */,
 				21AD1FEA1DE2C9B900487DBA /* Add(添加) */,
 				21AD1FEE1DE2C9B900487DBA /* Attention(关注) */,
@@ -619,9 +636,14 @@
 			children = (
 				21AD21B01DE2CFFA00487DBA /* BaseViewController.h */,
 				21AD21B11DE2CFFA00487DBA /* BaseViewController.m */,
+				21AD21BF1DE2D1CB00487DBA /* BDJTabBarController.h */,
+				21AD21C01DE2D1CB00487DBA /* BDJTabBarController.m */,
+				21AD21C21DE2DDC900487DBA /* BDJTabBar.h */,
+				21AD21C31DE2DDC900487DBA /* BDJTabBar.m */,
+				21AD21C91DE2E1C700487DBA /* PrefixHeader.pch */,
+				21AD21CA1DE2E61800487DBA /* BDJconst.h */,
 			);
-			name = "Common(公共类)";
-			path = "../Common(公共类)";
+			path = "Common(公共类)";
 			sourceTree = "<group>";
 		};
 		21AD1FF31DE2C9B900487DBA /* Essence(精华) */ = {
@@ -631,8 +653,7 @@
 				21AD1FF51DE2C9B900487DBA /* model */,
 				21AD1FF61DE2C9B900487DBA /* view */,
 			);
-			name = "Essence(精华)";
-			path = "../Essence(精华)";
+			path = "Essence(精华)";
 			sourceTree = "<group>";
 		};
 		21AD1FF41DE2C9B900487DBA /* controller */ = {
@@ -661,8 +682,6 @@
 		21AD1FF71DE2C9B900487DBA /* News(最新) */ = {
 			isa = PBXGroup;
 			children = (
-				21AD1FF21DE2C9B900487DBA /* Common(公共类) */,
-				21AD1FF31DE2C9B900487DBA /* Essence(精华) */,
 				21AD1FF81DE2C9B900487DBA /* controller */,
 				21AD1FF91DE2C9B900487DBA /* model */,
 				21AD1FFA1DE2C9B900487DBA /* view */,
@@ -965,6 +984,17 @@
 				21AD20DB1DE2CA1A00487DBA /* tabBar_publish_icon@3x.png */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		21AD21C51DE2DEB900487DBA /* catrgory(类别) */ = {
+			isa = PBXGroup;
+			children = (
+				21AD21C61DE2DF1B00487DBA /* UIButton+Util.h */,
+				21AD21C71DE2DF1B00487DBA /* UIButton+Util.m */,
+				21AD21CB1DE2E7EF00487DBA /* UIView+Util.h */,
+				21AD21CC1DE2E7EF00487DBA /* UIView+Util.m */,
+			);
+			path = "catrgory(类别)";
 			sourceTree = "<group>";
 		};
 		A3230943CDC1C893D3C32E51 /* Pods */ = {
@@ -1351,6 +1381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AD21C41DE2DDC900487DBA /* BDJTabBar.m in Sources */,
+				21AD21CD1DE2E7EF00487DBA /* UIView+Util.m in Sources */,
+				21AD21C81DE2DF1B00487DBA /* UIButton+Util.m in Sources */,
 				21AD1FBB1DE2C7A900487DBA /* ViewController.m in Sources */,
 				21AD21BB1DE2D04C00487DBA /* AttentionViewController.m in Sources */,
 				21AD21B21DE2CFFA00487DBA /* BaseViewController.m in Sources */,
@@ -1359,6 +1392,7 @@
 				21AD21B51DE2D01F00487DBA /* EssenceViewController.m in Sources */,
 				21AD1FB81DE2C7A800487DBA /* AppDelegate.m in Sources */,
 				21AD1FB51DE2C7A800487DBA /* main.m in Sources */,
+				21AD21C11DE2D1CB00487DBA /* BDJTabBarController.m in Sources */,
 				21AD21B81DE2D03B00487DBA /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1504,6 +1538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes(类文件)/Common(公共类)/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1519,6 +1554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes(类文件)/Common(公共类)/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
