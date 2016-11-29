@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    self.rightHLImageName = @"navigationButtonRandomClick_26x26_";
+    self.rightImageName = @"navigationButtonRandom_26x26_";
+
+
 }
 
 

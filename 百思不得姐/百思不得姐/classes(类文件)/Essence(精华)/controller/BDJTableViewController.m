@@ -9,6 +9,9 @@
 #import "BDJTableViewController.h"
 #import "BDJEssenceModel.h"
 #import "EssenceVideoCell.h"
+#import "EssenceImageCell.h"
+#import "EssenceTextCell.h"
+#import "EssenceAudioCell.h"
 
 @interface BDJTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -143,6 +146,12 @@
 
     if ([detail.type isEqualToString:@"video"]) {
         cell = [EssenceVideoCell videoCellForTableView:tableView atIndexPath:indexPath withModel:detail];
+    }else if([detail.type isEqualToString:@"image"]) {
+        cell = [EssenceImageCell imageCellForTableView:tableView atIndexPath:indexPath withModel:detail];
+    }else if([detail.type isEqualToString:@"text"]) {
+        cell = [EssenceTextCell textCellForTableView:tableView atIndexPath:indexPath withModel:detail];
+    }else if([detail.type isEqualToString:@"audio"]) {
+        cell = [EssenceAudioCell audioCellForTableView:tableView atIndexPath:indexPath withModel:detail];
     }else {
         cell = [[UITableViewCell alloc] init];
     }
